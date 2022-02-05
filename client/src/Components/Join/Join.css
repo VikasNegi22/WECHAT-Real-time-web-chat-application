@@ -1,0 +1,59 @@
+.joinOuterContainer{
+    background-color: black;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     row-gap: 20vh;
+     flex-direction: column;
+}
+.joinOuterContainer_heading{
+    color: white;
+}
+
+.joinInnerContainer{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 40vw
+}
+
+.heading{
+    color: white;
+    align-items: center;
+}
+
+.line{
+    border: 0.5px solid white;
+    /* height: 2px; */
+    width: 40vw;
+    color: white;
+}
+
+.joinInput{
+        width: 40vw;
+        box-sizing: border-box;
+        height: 30px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.button{
+    background-color: rgb(68, 68, 255);
+    color: white;
+    width: 40vw;
+    height: 40px;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.joinInnerContainer_input>input{
+    height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}

@@ -1,0 +1,39 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    color: white;
+    height: 60%;
+    margin-top: 2vh;
+    /* justify-content: space-between; */
+  }
+  
+  .activeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+   
+  }
+  
+  .activeItem {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 8px;
+  }
+  
+  .activeContainer img {
+    margin-right: 6px;
+    height: 16px;
+    width: 16px;
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }
